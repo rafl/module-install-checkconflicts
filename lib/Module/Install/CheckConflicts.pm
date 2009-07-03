@@ -43,7 +43,7 @@ sub check_conflicts {
 EOM
 
     for my $mod (sort keys %conflicts_found) {
-        print sprintf("    %s => %s (<= %s)\n",
+        print sprintf("    %s :   %s (<= %s)\n",
             $mod, $conflicts_found{$mod}, $conflicts{$mod},
         );
     }
