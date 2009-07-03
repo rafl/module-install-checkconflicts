@@ -27,6 +27,7 @@ sub check_conflicts {
     my $dist = 'foo';
 
     print <<"EOM";
+
 ***
   WARNING:
 
@@ -38,6 +39,7 @@ sub check_conflicts {
 
     List of the conflicting modules and their installed
     versions:
+
 EOM
 
     for my $mod (sort keys %conflicts_found) {
