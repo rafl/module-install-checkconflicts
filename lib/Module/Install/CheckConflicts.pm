@@ -24,7 +24,7 @@ sub check_conflicts {
 
     return unless scalar keys %conflicts_found;
 
-    my $dist = 'foo';
+    my $dist = $self->name;
 
     print <<"EOM";
 
