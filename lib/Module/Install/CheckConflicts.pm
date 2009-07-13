@@ -3,10 +3,11 @@ use warnings;
 
 package Module::Install::CheckConflicts;
 
+use base 'Module::Install::Base';
+
 BEGIN {
     our $VERSION = '0.01';
     our $ISCORE  = 1;
-    our @ISA     = qw{Module::Install::Base};
 }
 
 sub check_conflicts {
