@@ -6,7 +6,7 @@ package Module::Install::CheckConflicts;
 use base 'Module::Install::Base';
 
 BEGIN {
-    our $VERSION = '0.01';
+    our $VERSION = '0.02';
     our $ISCORE  = 1;
 }
 
